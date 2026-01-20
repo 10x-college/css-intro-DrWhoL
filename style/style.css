@@ -1,0 +1,215 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    color: #F0EDFF;
+    text-decoration: none;
+}
+
+header nav a {
+    margin-left: 24px;
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: #2563eb;
+}
+
+
+.didi-baneri{
+
+    background-image: url("../image/Rectangle\ 7.svg");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.baneri h1{
+
+    font-weight: 700;
+    font-family: inter;
+    font-style: normal;
+    size: 48px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.baneri p{
+    color: white;
+    text-align: center;
+}
+
+.satauri{
+    width: 351px;
+    height: 44px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+body{
+    background-color: #F5F5F7;
+}
+
+article{
+    border-radius: 10px;
+    overflow: hidden;
+    width: 360px;
+    height: 472px;
+    padding: 10px;
+    background-color: white;
+        display: inline-block;
+    margin: 1px;
+    margin-bottom: 20px;
+    
+}
+
+/* ფერები */
+
+.orange{
+    margin: 0%;
+    height: 160px; 
+    background-color: #FFD4B8;
+}
+
+.yellow{
+    margin: 0%;
+    height: 160px;    
+    background-color: #FFE4B8;
+}
+
+.green{
+    margin: 0%;
+    height: 160px;
+    background-color: #D4FFB8;
+}
+
+.blue{
+    margin: 0%;
+    height: 160px;
+    background-color: #B8E0FF;
+}
+
+.pink{
+    margin: 0%;
+    height: 160px;
+    background-color: #FFB8D8;
+}
+
+.purple{
+    margin: 0%;
+    height: 160px;
+    background-color: #C7B8FF;
+
+}
+/* ------- */
+.section-1{
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.cardi-1 .cardi-2 .cardi-3 .cardi-4 .cardi-5 .cardi-6 {
+    padding: 20px;
+    margin: 20px;
+}
+
+.usargeblo-monacemi {
+    font-size: 13px;
+    color: #000000;
+    
+    
+}
+
+h3{
+    font-size: 22px;
+    margin: 10px 0;
+    text-align: left;
+
+}
+
+p{
+    font-size: 15px;
+    line-height: 100%;
+    color: black;
+    text-align: left;
+}
+
+
+/* fooateri */
+
+.footer {
+    background-color: #252424;
+    color: #ccc;
+    padding: 60px 0 0;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+}
+
+/* ვიცი ეს არ გვისწავლია :დ უბრალოდ აზრზე არ ვიყავი როგორ დამელაგებინა სწორად */
+
+.footer-grid {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+
+.footer h4 {
+    color: #fff;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.footer p,
+.footer a {
+    font-size: 14px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.copyright {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    font-size: 12px;
+    background-color: #1a1a1a;
+    color: #aaa;
+}
